@@ -28,7 +28,7 @@ spec:
           # IMPORTANT: Use digest instead of tags for SLSA L3 compliance
           # Update this after each CI build with the new digest from GitHub Actions output
           # Example: ghcr.io/pecatap/python-slsa-web@sha256:abc123...
-          image: ghcr.io/pecatap/python-slsa-web@sha256:96d5a2ce960dc45cfa3d59ed569850eda13e7bde2e66296232da39028881a45d
+          image: ghcr.io/pecatap/python-slsa-web@sha256:79663d34c9bde1074c5bc9298614fd296f57a4be6856bbfddb0852ad16ed8e15
           imagePullPolicy: IfNotPresent
           securityContext:
             allowPrivilegeEscalation: false
